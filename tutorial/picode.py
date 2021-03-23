@@ -1,8 +1,9 @@
-import RPi.GPIO as GPIO
-import time
 
-GPIO.setwarnings(False)
-GPIO.cleanup()
+import RPi.GPIO as GPIO # RPi.GPI0 is a python package 
+import time #python module
+
+GPIO.setwarnings(False) #suppress warning messages
+GPIO.cleanup() 
 GPIO.setmode(GPIO.BCM)
 
 #positions on board
